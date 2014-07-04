@@ -4,7 +4,8 @@ import sys
 import json
 
 def main():
-    tweet_file = open(sys.argv[1])
+    sent_file = open(sys.argv[1])
+    tweet_file = open(sys.argv[2])
 
     #afinnfile = open("AFINN-111.txt")
     #    scores = {} # initialize an empty dictionary
